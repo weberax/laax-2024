@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <Router>
+      <Router basename={process.env.PUBLIC_PATH}>
         <div className="App">
           <div className="container-fluid">
             <div className="row flex-nowrap">

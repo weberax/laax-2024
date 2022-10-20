@@ -37,6 +37,17 @@ if (isProduction) {
       swDest: 'sw.js'
     })
   );
+  webpackPlugins.push(
+    new webpack.DefinePlugin({
+      'process.env.PUBLIC_PATH': JSON.stringify('/raed-tricks'),
+    })
+  )
+} else {
+  webpackPlugins.push(
+    new webpack.DefinePlugin({
+      'process.env.PUBLIC_PATH': null,
+    })
+  )
 }
 
 module.exports = {
@@ -45,7 +56,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'main.js',
-    publicPath: '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/raed-tricks/' : '/',
   },
   devServer: {
     historyApiFallback: true,
