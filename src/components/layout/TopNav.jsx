@@ -17,7 +17,7 @@ const TopNav = ({ setShowAboutPage, setShowResetWarning }) => {
           <BackButton/>
         </Visibility>
       </div>
-      <Navbar.Brand href="/" className="me-auto hide-on-desktop">Highline Freestyle</Navbar.Brand>
+      <Navbar.Brand href="/" className="me-auto hide-on-desktop">Read Tricks</Navbar.Brand>
       <Navbar.Brand href="/" className="me-auto hide-on-mobile">{ parentPage }</Navbar.Brand>
       <div className="hide-on-desktop nav-item">
         <Settings

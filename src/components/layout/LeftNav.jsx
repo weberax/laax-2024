@@ -13,7 +13,7 @@ const LeftNav = ({ setShowAboutPage, setShowResetWarning }) => {
   return (
     <div className="hide-on-mobile left-navigation">
       <a href="/" className="text-decoration-none">
-        <span className="fs-4 text-white">Highline Freestyle</span>
+        <span className="fs-4 text-white">Laax-2024 Tricklist</span>
       </a>
       <hr />
       <Nav variant="pills" className="flex-column mb-auto">

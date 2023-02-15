@@ -7,7 +7,7 @@ const InstallButton = () => {
 
   const installApp = () => {
     pwaInstall({
-      title: "Highline Freestyle",
+      title: "Read Tricks",
       logo: logo,
       features: (
         <ul>
@@ -17,7 +17,7 @@ const InstallButton = () => {
           <li>Works offline</li>
         </ul>
       ),
-      description: "App for Highline Freestyle athletes",
+      description: "App for Read Tricks athletes",
     })
       .catch((e) => {
         console.warn(e)

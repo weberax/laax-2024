@@ -4,7 +4,7 @@ const About = ({ showAboutPage, setShowAboutPage }) => {
   return (
     <Modal show={showAboutPage} onHide={() => setShowAboutPage(false)} size="lg">
       <Modal.Header closeButton>
-        <Modal.Title>About highline-freestyle.com</Modal.Title>
+        <Modal.Title>About weberax.github.io/raed-tricks</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <h5>What is the goal of this app?</h5>
