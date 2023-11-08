@@ -7,7 +7,7 @@ const InstallButton = () => {
 
   const installApp = () => {
     pwaInstall({
-      title: "Read Tricks",
+      title: "Laax-2024 Tricklist",
       logo: logo,
       features: (
         <ul>
@@ -17,7 +17,7 @@ const InstallButton = () => {
           <li>Works offline</li>
         </ul>
       ),
-      description: "App for Read Tricks athletes",
+      description: "Tricklist for the worldchampionship Laax 2024",
     })
       .catch((e) => {
         console.warn(e)
