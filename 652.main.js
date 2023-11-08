@@ -1,0 +1,1 @@
+(self.webpackChunklaax_2024=self.webpackChunklaax_2024||[]).push([[652],{9652:function(s){s.exports={messages:{"languages.english":"Inglés","languages.spanish":"Español","links.comboGenerator":"Generador de Combos","links.combos":"Combos","links.tricks":"Trucos","trickDetails.level":"Nivel"}}}}]);
