@@ -39,7 +39,7 @@ if (isProduction) {
   );
   webpackPlugins.push(
     new webpack.DefinePlugin({
-      'process.env.PUBLIC_PATH': JSON.stringify('/laax-2024'),
+      'process.env.PUBLIC_PATH': JSON.stringify('/laax-2024/'),
     })
   )
 } else {
@@ -56,7 +56,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'main.js',
-    publicPath: process.env.NODE_ENV === 'production' ? '/laax-2024' : '/',
+    publicPath: isProduction ? '/laax-2024/' : '/',
   },
   devServer: {
     historyApiFallback: true,
