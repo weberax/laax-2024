@@ -78,13 +78,6 @@ const TrickDetails = () => {
           <div className="row align-items-center justify-content-between">
             <h2 className="col-6" align="left">{trick.alias || trick.technicalName}</h2>
 
-            <div className="col-3" align="center">
-              <EditButton call={editTrick}/>
-            </div>
-
-            <div className="col-3" align="right">
-              <DeleteButton setShowDeleteWarning={setShowDeleteWarning}/>
-            </div>
           </div>
           {trick.alias && trick.technicalName &&
             <div>

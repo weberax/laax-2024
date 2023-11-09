@@ -17,22 +17,12 @@ const Settings = ({ setShowAboutPage, setShowResetWarning }) => {
 
   return (
     <Menu menuButton={<button className="btn btn-secondary btn-outline-secondary"><BsGearFill/></button>} transition>
-      <MenuItem onClick={() => setShowResetWarning("tricks")} >Reset all tricks</MenuItem>
-      <MenuItem onClick={() => setShowResetWarning("combos")} >Reset all combos</MenuItem>
-
-      <MenuDivider />
-
-      <MenuItem onClick={() => db.exportDatabase()} >Export Database</MenuItem>
-      <SubMenu label="Import Database File">
+      <SubMenu label="Import colors (export via highline-freestyle.com)">
         <MenuItem onChange={selectImportFile} ><input type="file" /></MenuItem>
       </SubMenu>
 
       <MenuDivider />
 
-      <MenuItem><LanguageSelector /></MenuItem>
-
-      <MenuDivider />
-      <MenuItem onClick={() => self.open("https://forms.gle/Kg1Kydh8tqG4f7Vv8")} >Propose new trick</MenuItem>
       <MenuItem onClick={() => setShowAboutPage(true)} >About</MenuItem>
     </Menu>
   );

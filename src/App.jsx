@@ -40,7 +40,6 @@ const App = () => {
         <div className="App">
           <div className="container-fluid">
             <div className="row flex-nowrap">
-              <LeftNav setShowAboutPage={setShowAboutPage} setShowResetWarning={setShowResetWarning} />
               <Div100vh className="main-column">
                 <TopNav setShowAboutPage={setShowAboutPage} setShowResetWarning={setShowResetWarning} />
                 <div className="main-column-content-wrapper">
@@ -55,34 +54,10 @@ const App = () => {
                         />
                       } />
                       <Route path="/tricks/:id" element={<TrickDetails />} />
-                      <Route path="/combos/:id" element={<ComboDetails setUserCombo={setUserCombo} />} />
-                      <Route path="/posttrick" element={
-                        <ScrollToTop>
-                          <PostTrick />
-                        </ScrollToTop>
-                      } />
-                      <Route path="/postcombo" element={<PostCombo userCombo={userCombo} setUserCombo={setUserCombo}/>} />
-                      <Route path="/generator" element={
-                        <ComboGenerator
-                          difficultyRangeMax={difficultyRangeMax}
-                          randomCombo={randomCombo}
-                          setRandomCombo={setRandomCombo}
-                        />
-                      } />
-                      <Route path="/combos" element={
-                        <ComboList
-                          scrollPosition={comboListScrollPosition}
-                          setScrollPosition={setComboListScrollPosition}
-                          />
-                      } />
                       <Route path="/*" element={<NotFoundPage/>} />
                     </Routes>
                   </div>
-                  <Visibility visiblePages={[pages.TRICKLIST, pages.COMBOLIST]}>
-                    <FloatingActionButton setTrickListScrollPosition={setTrickListScrollPosition} setComboListScrollPosition={setComboListScrollPosition} setUserCombo={setUserCombo}/>
-                  </Visibility>
                 </div>
-                <BottomNav />
                 {showAboutPage && <About showAboutPage={showAboutPage} setShowAboutPage={setShowAboutPage}/>}
                 {showResetWarning && <ResetWarning showResetWarning={showResetWarning} setShowResetWarning={setShowResetWarning}/>}
               </Div100vh>
