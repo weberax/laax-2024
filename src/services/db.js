@@ -82,7 +82,7 @@ export default class Database {
         // Combine the attributes of listA and listB, removing duplicates from listB
         const objBcopy = { ...objB };
         Object.keys(objA).forEach((key) => {
-          if (key !== "id" && key !== "stickFrequency" && key !== "boostSkill"){
+          if (key !== "id" && key !== "stickFrequency"){
             delete objA[key];
           } else if (key in objB) {
             delete objBcopy[key];

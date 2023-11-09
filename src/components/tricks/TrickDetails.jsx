@@ -94,7 +94,7 @@ const TrickDetails = () => {
 
           {(trick.difficultyLevel >= 0) &&
             <div>
-              <h6><Trans id="trickDetails.level">Level</Trans>: </h6>
+              <h6>Official Tear: </h6>
               <div className="callout">{(trick.difficultyLevel != 999) ? trick.difficultyLevel : "to be determined"}</div>
             </div>
           }
@@ -154,11 +154,6 @@ const TrickDetails = () => {
             </div>
           </div>
 
-          <div className="boostSkill row justify-content-center">
-            <button className={trick.boostSkill ? "col-8 col-lg-3 col-xl-2 btn btn-warning" : "col-8 col-lg-3 col-xl-2 btn btn-primary" } onClick={toggleBoostSkill}>{trick.boostSkill ? "Unboost this trick" : (<><IoRocketSharp/> Boost this trick</>)}</button>
-          </div>
-
-          {showDeleteWarning && <DeleteWarning showDeleteWarning={showDeleteWarning} setShowDeleteWarning={setShowDeleteWarning} itemName={trick.alias || trick.technicalName} call={deleteTrick} />}
         </article>
       )}
     </div>
