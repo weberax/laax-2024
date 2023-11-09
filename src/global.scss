@@ -14,6 +14,10 @@ body {
   }
 }
 
+.btn {
+  background-color: $red-600;
+}
+
 .left-navigation {
   @extend .p-3, .text-white, .bg-dark;
   width: 280px;
@@ -52,11 +56,11 @@ body {
   }
 
   @include media-breakpoint-up(lg) {
-    background-color: $gray-600;
+    background-color: $red-600;
   }
 
   @include media-breakpoint-down(lg) {
-    background-color: $dark;
+    background-color: $red;
   }
 }
 

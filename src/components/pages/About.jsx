@@ -8,7 +8,7 @@ const About = ({ showAboutPage, setShowAboutPage }) => {
       </Modal.Header>
       <Modal.Body>
         <p>This is the official tricklist for the worldchampionship in Laax 2024.</p>
-        <p>More details and infos at <a href="http://www.swiss-slackline.ch/laax">www.swiss-slackline.ch/laax</a>.</p>
+        <p>More details and infos at <a target="_blank" href="http://www.swiss-slackline.ch/laax">www.swiss-slackline.ch/laax</a>.</p>
       </Modal.Body>
     </Modal>
   );
