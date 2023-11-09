@@ -113,15 +113,6 @@ const TrickList = ({ scrollPosition, setScrollPosition, userCombo, setUserCombo 
 
   return (
     <div>
-      <div className="px-lg-2 px-1">
-        {addTrickToCombo && <h2 style={{'fontWeight': 'bold'}}>Add trick to combo</h2>}
-        <SearchBar
-          sortingSchema={trickSortingSchemes}
-          dropdownHeader="Sort tricks"
-          searchPattern={searchPattern}
-          onFilter={value => setSearchPattern(value)}
-          onSort={schemeId => setSortOpt(schemeId)} />
-      </div>
       <div className="row m-0 p-0">
         {searchResults.map(trick => {
           let isFirst = (sortingSchemes[sortOpt].attributeFunc(trick) !== current);
