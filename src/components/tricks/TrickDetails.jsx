@@ -94,7 +94,7 @@ const TrickDetails = () => {
 
           {(trick.difficultyLevel >= 0) &&
             <div>
-              <h6>Official Tear: </h6>
+              <h6>Official Tier: </h6>
               <div className="callout">{(trick.difficultyLevel != 999) ? trick.difficultyLevel : "to be determined"}</div>
             </div>
           }
