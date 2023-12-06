@@ -17,7 +17,7 @@ const TopNav = ({ setShowAboutPage, setShowResetWarning }) => {
           <BackButton/>
         </Visibility>
       </div>
-      <Navbar.Brand href="laax-2024/" className="me-auto">Laax-2024 Tricklist</Navbar.Brand>
+      <Navbar.Brand href="laax-2024/" className="me-auto">Laax-2024 Tierlist</Navbar.Brand>
       <Settings
         setShowAboutPage={setShowAboutPage}
         setShowResetWarning={setShowResetWarning} />
