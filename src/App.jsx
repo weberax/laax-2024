@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <Router basename={"/laax-2024"}>
+      <Router >
         <div className="App">
           <div className="container-fluid">
             <div className="row flex-nowrap">
