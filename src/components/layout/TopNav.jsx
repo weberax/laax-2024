@@ -6,6 +6,7 @@ import BackButton from "../buttons/BackButton";
 import InstallButton from "../buttons/InstallButton";
 import { parentPageOf } from '../../services/parentPage';
 import Settings from './Settings';
+import logo from '../../../public/logo512.png';
 
 const TopNav = ({ setShowAboutPage, setShowResetWarning }) => {
   const parentPage = parentPageOf(useLocation().pathname.toString().toLowerCase());
@@ -17,7 +18,10 @@ const TopNav = ({ setShowAboutPage, setShowResetWarning }) => {
           <BackButton/>
         </Visibility>
       </div>
-      <Navbar.Brand href="laax-2024/" className="me-auto">Laax-2024 Tierlist</Navbar.Brand>
+      <Navbar.Brand href="laax-2024/" className="me-auto">
+        <img src={logo} height="38" />{' '}
+        2024 Tierlist
+      </Navbar.Brand>
       <Settings
         setShowAboutPage={setShowAboutPage}
         setShowResetWarning={setShowResetWarning} />
