@@ -1,6 +1,6 @@
 import { BsDownload } from 'react-icons/bs';
 import { useReactPWAInstall } from 'react-pwa-install';
-import logo from '../../../public/logo96.png';
+import logo from '../../../public/logo192.png';
 
 const InstallButton = () => {
   const { pwaInstall, supported, isInstalled } = useReactPWAInstall();
@@ -11,11 +11,11 @@ const InstallButton = () => {
       logo: logo,
       features: (
         <ul>
-          <li>Tierlist</li>
+          <li>official Tierlist</li>
           <li>Works offline</li>
         </ul>
       ),
-      description: "Tierlist for the worldchampionship Laax 2024",
+      description: "official Tierlist for the worldchampionship Laax 2024",
     })
       .catch((e) => {
         console.warn(e)
