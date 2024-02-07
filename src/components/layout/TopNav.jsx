@@ -19,7 +19,7 @@ const TopNav = ({ setShowAboutPage, setShowResetWarning }) => {
         </Visibility>
       </div>
       <Navbar.Brand href="laax-2024/" className="me-auto">
-        <img src={logo} height="38" />{' '}
+        <img src={logo} height="38" class="rounded" />{' '}
         2024 Tierlist
       </Navbar.Brand>
       <Settings
