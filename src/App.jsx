@@ -46,15 +46,6 @@ const App = () => {
                  <div id="content" className="main-column-content">
                     <Routes>
                       <Route path="/" element={
-                        //<TrickList
-                        //  scrollPosition={trickListScrollPosition}
-                        //  setScrollPosition={setTrickListScrollPosition}
-                        //  userCombo={userCombo}
-                        //  setUserCombo={setUserCombo}
-                        ///>
-                        <p>Judges are deciding on tiers at the moment... latest in January tiers will be fixed</p>
-                      } />
-                      <Route path="/preview" element={
                         <TrickList
                           scrollPosition={trickListScrollPosition}
                           setScrollPosition={setTrickListScrollPosition}
