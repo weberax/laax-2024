@@ -1,5 +1,5 @@
 // increase this manualy if you update the predefinedTricks
-export const predefinedTricksVersion = 9;
+export const predefinedTricksVersion = 10;
 // predefinedTricks have to have an id above 10000
 export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstablished,linkToVideo,videoStartTime,videoEndTime,startPos,endPos,difficultyLevel,description,tips,recommendedPrerequisites
 10006,Belly Roll,,,,https://www.youtube.com/watch?v=1qJJ26dPKyc,,,BELLY,BELLY,1,With both hands on the line supporting your weight you lie on your belly and roll forward (or backward) around the line.,You can try this trick clipped into the hangover first to save energy while familiarizing yourself with the movement.,
@@ -13,6 +13,8 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10024,Korean 270 Spin to Back Belly Roll,Underflip,Augustin Moinat,2021,,,,KOREAN,BELLY,2,Spin with one leg 270 degrees from Korean to Belly into a Back Belly Roll.,Be comfortable with Back Belly Rolls first; Start the spin with the intention of finishing as a Back Belly Roll.,10006
 10184,Sit to Feet,,,,https://www.youtube.com/watch?v=rdV2Jhi6U5Y,,,SIT,STAND,2,"From Sit you stand up on the top of the bounce. If you don't have enough momentum, you can pull on the line with one arm.",Learning this is a lot about learning the correct timing which is doing the trick at the top of the bounce when you feel weightless.,
 10185,Korean Bounce,,,,https://www.youtube.com/watch?v=1hPL5d3en8c,,,STAND,KOREAN,2,From standing on the line you let the line come towards your body on the top of the bounce and then slide your feet off the line to land in Korean.,,
+10985,Rocket Bounce,,,,,,,STAND,ROCKET,2,From Standing to Rocket,,
+10885,Yisus Bounce,,,,,,,STAND,YISUS,2,From Standing to Yisus,,
 10187,Chest Bounce,,,,https://www.youtube.com/watch?v=Z11fkcCv_Qo,,,STAND,CHEST,2,On the way to the top of the bounce you let the line come towards your body and grab it with one hand. Slide your front foot off the line and with your hand controlling the line you drop down to chest.,It can help to practice briefly grabing the line at the top of the bounce while bouncing in normal to learn to let the line come to you instead of you droping down to the line.,
 10191,Soup to Feet,,,,https://www.youtube.com/watch?v=-xz9Ex3IE-M,,,SOUP,STAND,2,"From Soup you stand up on the top of the bounce. If you don't have enough momentum, you can pull the line with one arm.",,10184
 10192,Soup Bounce,,,,https://www.youtube.com/watch?v=-xz9Ex3IE-M,,,STAND,SOUP,2,From standing on the line you let the line come towards your body on the top of the bounce and sit down keeping one foot on the line.,Feels like sitting down on something behind you; Don't try to grab the line in case you loose the balance; It can help to practice Korean bounces first and then Soup bounces.,10185
@@ -55,6 +57,8 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10112,Shapeshifter,,Ian Eisenberg,2021,https://www.youtube.com/watch?v=QrUyUx8oJUY,,,EXPOSURE,ROCKET,4,From Exposure do a front flip off the line and catch the line to land in Rocket.,,
 10206,Orbital 180,Fake Orbital,,,,,,STAND,CHEST,4,Orbital 180 landing in Chest. The 180 makes it easier compared to the normal Orbital. Also called Norbital.,,
 10221,Korean Pop,Sushi,Ian Eisenberg,2021,https://youtu.be/7yLCyoHgUS0?t=1322,1322,1323,STAND,STAND,4,Korean from Feet and Korean to Feet in one bounce. You have to let the line pop at the beginning.,Consider buying a cup to protect your genitals (applies to men and women).,
+10785,Split Bounce,,,,,,,STAND,KOREAN,4,From Standing to Split,,
+10685,Split to Feet,,,,,,,KOREAN,STAND,4,From Split to Feet,,
 10028,Double Double Drop Knee Roll,,Davis Hermes,2021,https://youtu.be/VP49hErTqM0?t=125,125,130,DOUBLE DROP KNEE,DOUBLE DROP KNEE,4,Double Roll in Double Drop Knee.,,
 10023,Hammock Roll from Feet,,Augustin Moinat,2021,,,,STAND,BACK,4,"Let the line come to your butt and grab it right behind your butt with one hand and then go to Backbounce, grab the second hand behind your head, hook with one foot and do a Hammock Roll. ",,10004
 10077,Hammock Back Roll,,Guillaume Fontaine,2017,https://youtu.be/Ej2ocABoNC4?t=22785,22785,22790,BACK,KOREAN,4,Do a Hammock Roll and finish with a Back Roll in the same bounce.,,10047
@@ -63,11 +67,13 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10026,Back Korean Roll BS 180,Richard Roll,Sakalomo,2021,https://youtu.be/7yLCyoHgUS0?t=694,694,698,KOREAN,KOREAN,4,"Do a Back Korean Roll, pass the front leg over the line to be in Sofa, pass the back leg over the line to end in Korean facing the other anchor.",,
 10027,Nevermind BS 360 to Chest,Spiral,Sakalomo,2021,https://youtu.be/7yLCyoHgUS0?t=752,752,761,NEVERMIND,CHEST,4,Do a Nevermind up but instead of going to Feet you spin 360 backside and land in Chest.,,
 10215,Reverse Flowflip,Wolf Flip,,,,,,KOREAN,KOREAN,4,"From Korean initiate a 360 BS spin to the front and simultaneously start a roll backwards, spin for a full 360 to land back in Korean after the roll is finished.",,10015
-10053,FS 360 Butt Flatspin,Butter,Tlaloc Moctezuma-Burns,2021,https://youtu.be/RDVaUFdqMmE?t=237,237,241,SOFA,SOFA,4,In Butt grab the line with the front hand behind you. Then pull with that arm to do a 360 landing back in Sofa.,,
+10753,360 Chest to Chest,,,,,,,CHEST,CHEST,4,From Chest do a 360 flatspin to Chest again.,,
+10053,FS 360 Butt to Butt,Butter,Tlaloc Moctezuma-Burns,2021,https://youtu.be/RDVaUFdqMmE?t=237,237,241,SOFA,SOFA,4,In Butt grab the line with the front hand behind you. Then pull with that arm to do a 360 landing back in Sofa.,,
 10056,Belly Roll to Feet,,Enzo Fuchs,2018,https://www.youtube.com/watch?v=qUxUNfgvoPs&t=107,107,110,BELLY,EXPOSURE,5,From Belly turn one time around the line and land in Exposure in one bounce.,,10006
 10069,Sofa 360 to Feet,Baguette,Tlaloc Moctezuma-Burns,2020,https://youtu.be/hsALSrUdryU?t=49,49,53,SOFA,EXPOSURE,5,"From Sofa you do a 360, put the outter foot on the line first and then put the second foot on to land in Exposure.",,10222
 10050,Panic Roll to Feet,,Anthony Boulay,,https://www.youtube.com/watch?v=hQaJ54xvfOA,,,SOFA,EXPOSURE,5,Do a Panic Roll and put your back foot onto the line. When you finished the rotation put the second foot up and stand up.,During the roll get your far foot on the line. At the end of the roll get your second foot up on the line.,10000
 10092,Hammock Roll to Feet,,Augustin Moinat,2021,,,,BACK,STAND,5,"Grab the line with one hand behind your head and the second hand below your back, do a Hammock Roll, and go to Feet.",,
+10951,Double Shoulder Roll,,,,,,,SHOULDER,SHOULDER,5,,,
 10104,Shoulder Roll to Feet,,,,https://www.youtube.com/watch?v=7CZuU59KY_c&t=71,71,78,SHOULDER,EXPOSURE,5,From Shoulderstand roll to one side and get your feet on the line. Land in Exposure.,,10051
 10076,Double Drop Knee Roll to Feet,,Domingo Capo,2021,https://youtu.be/7yLCyoHgUS0?t=1767,1767,1772,DOUBLE DROP KNEE,EXPOSURE,5,From Double Drop Knee do a Double Drop Knee Roll and stand up to land in Exposure.,,
 10237,One hand one foot Can of Soup,Pastisroll,Oscar Defoor,2021,,,,SOUP,STAND,5,Can of soup with only using the back hand and the front foot hooking the line.,,
@@ -83,6 +89,9 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10084,Orbital,,Ian Eisenberg,2020,https://www.youtube.com/watch?v=t6xPycD-JbY,,,STAND,KOREAN,5,"Grab the line with your back hand, bring it up around your body by passing it to your other hand, and finally pass your leg over the line to land in Korean.",,
 10094,Exposure Orbital to Sofa,Exporbital,Ian Eisenberg,2021,https://www.youtube.com/watch?v=2ykEngQRgKo&t=6,6,16,EXPOSURE,SOFA,5,Orbital to Sofa but starting in Exposure.,,10084
 10082,Half Nasty 180 Front Sofa Roll,Mini-Cube,Ian Eisenberg,2021,https://www.youtube.com/watch?v=7yLCyoHgUS0&t=1142,1142,1147,SOFA,SOFA,5,Do a Half Nasty 180 with an additional Front Sofa Roll. The motions happen at the same time rather than one after each other.,,10213
+10872,Sick Nasty 'fake' 180 to Feet,,,,,,,SOFA,EXPOSURE,5,,,
+10117,Freak Nasty to Feet,,Ian Eisenberg,2020,https://youtu.be/T27UrrWAr7A?t=36,36,53,SOFA,EXPOSURE,5,Do a Freak Nasty landing in Exposure.,,10065
+10097,Rocket Mount 180,,Ian Eisenberg,2020,https://youtu.be/dG9sJvKjg6E?t=285,285,293,ROCKET,EXPOSURE,5,"Start as you would for the Rocket Mount, and then half way up you push with one hand and pull with the other to initiate a 180 spin, landing in Exposure.",The movement in the end is comparable to the Sofa 360 to Feet.,10067
 10246,Shrimp Mount,,Ian Eisenberg,2022,https://www.instagram.com/p/Cd7NRJeNEAa/,,,ROCKET,EXPOSURE,5,"From Rocket, stay below the line, pull just your legs up and kick in between the arms with extended legs. With the momentum from the leg kick, bring your body above the line, tuck your legs and land in Exposure.",,
 10121,Reverse Rocket Mount,,Samuel Volery,2019,https://youtu.be/uOuqykzwN7w?t=171,171,188,ROCKET,EXPOSURE,5,From Rocket swing your legs up (feet first) and put both feet on the line inside of your hands and land in Exposure. ,Sam and Ian have quite different techniques for this trick. Try both and see which one suits you (or do your own variation of course).,
 10063,Rocket Roll 180 to Sofa,Rocket Rewind,Ian Eisenberg,2021,https://youtu.be/aYsX0kpCnAg?t=6,6,14,ROCKET,SOFA,5,Start by doing a Rocket Mount but then go into a Belly Roll finishing with a 180 to Sofa.,Get a lot of momentum for the Rocket Roll and in the end do a 180 and stick your butt out as in the Sofa Roll 360.,
@@ -91,9 +100,14 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10228,360 Spin,,,,,,,STAND,STAND,5,"Do a 360 spin, restepping with your feet twice.",,
 10119,Yoda Roll,,Samuel Volery,2016,https://www.youtube.com/watch?v=DgVLWsChXFM,,,EXPOSURE,EXPOSURE,6,From Exposure grab the line with both hands and roll around the line landing back in Exposure.,Try to wait a bit after hitting the bottom of the bounce before you start with the trick. If you start too early you will kill the bounce.,10199
 10122,Barrel Roll,,,,https://www.youtube.com/watch?v=dG9sJvKjg6E&t=396,396,402,STAND,STAND,6,From your normal stance grab the line with both hands and roll around the line landing back in the starting position.,,10066
+10124,Almighty Flip,,Axel Weber,2020,https://youtu.be/jIBjYEMRhrQ,,,EXPOSURE,EXPOSURE,6,From Exposure do a front flip while hooking one foot under the line and putting it back on the line for the landing.,After 270 deg of rotation try to pull the line under yourself with your feet.,10119
 10134,Han Solo,,Jim Galli,2020,https://www.youtube.com/watch?v=dG9sJvKjg6E&t=323,323,327,EXPOSURE,EXPOSURE,6,Almighty Flip but instead of hooking the line with your foot you grab and pull on the leash.,,10119
+10125,No Foot Almighty Flip,High'N'Mighty,Ian Eisenberg,2021,https://www.instagram.com/p/CVYpkmVg2FY/,,,STAND,STAND,6,Barrel Front Almighty Flip but instead of hooking the line with your foot you press the line against your leg.,,10124
 10133,90 to Yoda Roll,Adrenaline Roll,Ian Eisenberg,2020,https://youtu.be/qLEnzTtvTcA?t=38,38,42,STAND,EXPOSURE,6,Do a 90 with restepping and go into a Yoda Roll.,,10050
 10115,180 Orbital to Feet,Sakalorbital,Ian Eisenberg,2020,https://youtu.be/Ab2gW1rv5e8?t=69,69,74,STAND,EXPOSURE,6,"Grab the line with one hand, bring it around your body by passing it to your other hand above your head. Put the line back under your feet to land in Exposure.",,10084
+10148,Back Roll from Feet to Feet,Backflip,Ian Eisenberg,2021,https://youtu.be/Ej2ocABoNC4?t=18588,18588,18593,STAND,STAND,7,It is a Back Roll from Feet to Feet.,,10079;10086
+10159,Makako to Feet,,Sakalomo,2021,https://youtu.be/rWqH_51ztQA?t=5633,5633,5640,NEVERMIND,EXPOSURE,7,Makako landing in Exposure.,,10052
+10276,Makako 180 to Feet,Darthkako,Sakalomo,,https://youtu.be/Ej2ocABoNC4?t=21781,21781,21788,NEVERMIND,EXPOSURE,7,"From Nevermind start with the normal Makako motion but as soon as you regrab the line with your hands, do an additional 180 before coming back to Exposure. The last part of the trick is like a Darth Vader, hence the name.",,
 10231,Frontroll to Feet,,,,,,,SHOULDER,STAND,6,From Shoulder push yourself forward to roll over your back and land on your Feet.,,10048
 10079,Back Roll to Feet,,Guillaume Fontaine,2017,https://www.youtube.com/watch?v=Se5XNo0RSP8&t=662,662,666,BACK,STAND,6,"Do a Back Roll, then put your back foot on the line first, and press yourself up to put the second foot on.",,10047
 10989,Side Roll over Neck to Feet,,,,,,,SOFA,STAND,6,Sit in Sofa and roll to the side over your neck to Feet.,,
@@ -105,17 +119,15 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10139,Double Can of Soup,,Justin Wagers,2019,https://youtu.be/rWqH_51ztQA?t=6977,6977,6981,SOUP,STAND,6,From Soup do a double roll and land on your feet in normal stance.,,10066
 10216,Reverse Flowflip to Feet,Wolf Flip to Feet,Ian Eisenberg,2022,https://www.instagram.com/p/CfrFKq2tP0m/,,,KOREAN,STAND,6,Reverse Flowflip to Feet.,,10215
 10114,Korean Roll from Feet to Feet,Sushi Roll,Ian Eisenberg,2021,https://youtu.be/Ab2gW1rv5e8?t=16,16,20,STAND,STAND,6,Do a Korean Roll but starting from Feet and landing to Feet.,,10041
-10097,Rocket Mount 180,,Ian Eisenberg,2020,https://youtu.be/dG9sJvKjg6E?t=285,285,293,ROCKET,EXPOSURE,6,"Start as you would for the Rocket Mount, and then half way up you push with one hand and pull with the other to initiate a 180 spin, landing in Exposure.",The movement in the end is comparable to the Sofa 360 to Feet.,10067
+10128,Shrimpflip 180 to Feet,King Prawn,Ian Eisenberg,2021,https://youtu.be/7yLCyoHgUS0?t=1560,1560,1574,ROCKET,EXPOSURE,6,Do a Shrimpflip 180 but then go to Feet.,,10229
 10109,Sick Nasty 360,Tre Nasty,Ian Eisenberg,2021,https://youtu.be/wHPNMiKrHsQ?t=44,44,63,SOFA,SOFA,6,Start with the motion of a Half Nasty 180 but pass your legs over the line once more and keep spinning to do a full 360 landing back in the starting position.,,10044
-10117,Freak Nasty to Feet,,Ian Eisenberg,2020,https://youtu.be/T27UrrWAr7A?t=36,36,53,SOFA,EXPOSURE,6,Do a Freak Nasty landing in Exposure.,,10065
 10243,Front Sofa Roll Rewind to Sick Nasty Roll,Boomerang,Ian Eisenberg,2022,https://www.instagram.com/p/Cck9B16DcDi/,,,SOFA,SOFA,6,Start early with a Lightside Roll and use the resistance in the line to finish with a Sick Nasty Roll.,,
 10269,Darth Vader from Yisus,Resurrección,Gon Caturelli,2022,https://www.instagram.com/p/CZ5RlXfjAnA/,,,YISUS,EXPOSURE,6,We haven't figured out yet what's going on here. Look at the video and help us by updating the description.,,
 10267,Leash Orbital,Lando,Davis Hermes,2022,https://www.instagram.com/p/CgrrMmhgxhF/,,,STAND,KOREAN,6,"Do an Orbital, but grabing the leash instead of the line.",,
 10095,Antihero from Feet,Mini-Eisenvader,Ian Eisenberg,2021,https://youtu.be/7yLCyoHgUS0?t=1437,1437,1442,EXPOSURE,SOFA,6,From Exposure you grab the line with one hand and roll forward. As soon as you are under the line you perform an Antihero landing in Sofa.,,10039
-10118,540 Spin,,Joshua Leupolz,2021,https://youtu.be/qUxUNfgvoPs?t=46,46,49,STAND,STAND,6,Spin 540 on the line in a standing position.,,10228
-10124,Almighty Flip,,Axel Weber,2020,https://youtu.be/jIBjYEMRhrQ,,,EXPOSURE,EXPOSURE,7,From Exposure do a front flip while hooking one foot under the line and putting it back on the line for the landing.,After 270 deg of rotation try to pull the line under yourself with your feet.,10119
+10936,Nevermind to Back Almighty,Nevermighty,,,,,,NEVERMIND,STAND,6,Do a Nevermind into a Back Almighty,,
+10176,Soup to Almighty,No Soup,Tim Odermatt,2021,https://www.instagram.com/p/CVvIbn3lFqU/,,,SOUP,EXPOSURE,6,"A Can of Soup without hands, basically a Back Almighty starting from Soup.","Throw your hands in the air at the bottom of the bounce, it will allow you to gain more momentum to finish the rotation.",10143
 10153,180 Almighty Flip,,Ian Eisenberg,2021,https://youtu.be/n2z3IyeQSj4?t=88,88,105,EXPOSURE,EXPOSURE,7,Do a 180 and then go into a Front Almighty Flip.,,10124
-10125,No Foot Almighty Flip,High'N'Mighty,Ian Eisenberg,2021,https://www.instagram.com/p/CVYpkmVg2FY/,,,STAND,STAND,7,Barrel Front Almighty Flip but instead of hooking the line with your foot you press the line against your leg.,,10124
 10154,Double Barrel Roll,,Justin Wagers,2021,https://www.youtube.com/watch?v=VP49hErTqM0&t=415,415,419,STAND,STAND,7,Double Barrel Roll.,,10139
 10156,Double Yoda Roll,Turtle Roll,Pablo Signoret,,https://www.youtube.com/watch?v=VP49hErTqM0&t=420,420,423,EXPOSURE,EXPOSURE,7,Two Yoda Rolls in one bounce.,,10107
 10197,Yoda Rewind,,Sebastian Egger,2021,https://youtu.be/aAq4Tf8naOM?t=135,135,139,EXPOSURE,EXPOSURE,7,It's almost a Front Yoda Roll and a Back Yoda Roll in the same bounce. Start at the very bottom of the bounce with a Yoda Roll so the line snaps up and after around three quarters of rotation you have some resistance of the line to push off of into the reverse directon. ,Start a lot earlier than you would for most tricks.,
@@ -123,13 +135,11 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10173,BS 270 Back Yoda Roll,Dojo Roll,Ian Eisenberg,2021,https://youtu.be/BOGMXJsXWCE?t=31,31,43,STAND,EXPOSURE,7,Turn 180 to your BS and go into a Back Yoda Roll finishing the last 90 degrees of spin.,,10120;10145
 10140,Sofa Roll 360 to Feet,Nirvana,Salomé Cholet,2021,https://youtu.be/7yLCyoHgUS0?t=580,580,594,SOFA,EXPOSURE,7,Do a Sofa Roll 360 and land in Exposure.,,10022;10069
 10142,Sofa 540 to Feet,,Sebastian Egger,2021,https://www.instagram.com/p/CPgJRJHK777/,,,SOFA,EXPOSURE,7,Like a Sofa 360 to Feet but with a late 180.,Try to not do the 360 and then restep to get the 540 but instead go for the 540 directly.,10069
-10176,No Soup,,Tim Odermatt,2021,https://www.instagram.com/p/CVvIbn3lFqU/,,,SOUP,EXPOSURE,7,"A Can of Soup without hands, basically a Back Almighty starting from Soup.","Throw your hands in the air at the bottom of the bounce, it will allow you to gain more momentum to finish the rotation.",10143
 10151,Sick Nasty Roll to Feet,Darkside Roll,Ian Eisenberg,2020,https://youtu.be/Ab2gW1rv5e8?t=79,79,91,SOFA,EXPOSURE,7,Do a Sick Nasty Roll but instead of swinging both your legs over the line again put one foot on the line and keep the other one behind the line. Then put the second foot on and stick the trick.,,10068
 10220,Half Nasty 180 Front Sofa Roll to Feet,Rubik's Cube,Ian Eisenberg,2021,https://www.instagram.com/p/CPWrEFhKBUm/,,,SOFA,EXPOSURE,7,It's a Half Nasty 180 with a Front Sofa Roll landing in Exposure.,,10214
 10145,Butter Roll to Feet,The Tesseract,Ian Eisenberg,2021,https://www.instagram.com/p/CVhgrM6B6jd/,,,SOFA,EXPOSURE,7,"Start by doing the Butter and roll to your back, put your feet on the line to land in Expo.",,10230
 10110,Tre Nasty Roll,Tre Flip,Ian Eisenberg,2021,https://www.instagram.com/p/CUayzIYg49i/,,,SOFA,SOFA,7,Start with the motion of a Half Nasty 180 but pass your legs over the line once more and keep spinning to do a full 360 and then add a roll around the line to land back in the starting position.,,10109
 10178,Almighty from Sofa,Dirty Sofa,Tim Odermatt,2021,,,,SOFA,EXPOSURE,7,"Start in Sofa, then bring one foot up to the line to hook it and go for an Almighty Flip.",,10124
-10936,Nevermind to Back Almighty,Nevermighty,,,,,,NEVERMIND,STAND,7,Do a Nevermind into a Back Almighty,,
 10194,Leash to Feet,Whatever,Enzo Fuchs,2021,https://www.instagram.com/p/CRyXVw0ISbI/,,,LEASH,EXPOSURE,7,Drop into the leash and on the way up climb the leash and finish with a Rocket Mount.,,10073
 10195,Reverse Whatever,,Sebastian Egger,2021,https://youtu.be/Ej2ocABoNC4?t=23482,23482,23490,LEASH,EXPOSURE,7,Drop into the leash and on the way up climb the leash and finish with a Reverse Obi-Wan.,Amazing leash fall saving trick.,10074
 10127,NH Panic Roll to Feet,Panic Attack,Ian Eisenberg,2021,https://www.youtube.com/watch?v=7yLCyoHgUS0&t=1355,1355,1364,SOFA,EXPOSURE,7,You do a Panic Roll to Feet but don't use your hands to hold the line. Instead use your foot to hook the line and go to Feet.,,10050
@@ -139,21 +149,21 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10132,Antihero to Feet,Darth Vader,Ian Eisenberg,2021,https://www.youtube.com/watch?v=V0fMaONFvVY,,,ROCKET,EXPOSURE,7,Like an Antihero but landing in Exposure.,,10039
 10152,180 Darth Vader,,Ian Eisenberg,2021,https://youtu.be/HecUpHXRpDw?t=218,218,234,ROCKET,EXPOSURE,7,Darth Vader with a 180.,,10074
 10265,360 Darth Vader,,Justin Wagers,2022,https://www.instagram.com/p/Cgb_ScXIF86/,,,ROCKET,EXPOSURE,7,Do a 360 and a Darth Vader at the same time.,,
-10128,Shrimpflip 180 to Feet,King Prawn,Ian Eisenberg,2021,https://youtu.be/7yLCyoHgUS0?t=1560,1560,1574,ROCKET,EXPOSURE,7,Do a Shrimpflip 180 but then go to Feet.,,10229
 10141,FS 360 Rocket Mount,,Sebastian Egger,2021,https://www.instagram.com/p/CPgJRJHK777/,,,ROCKET,EXPOSURE,7,Rocket Mount with a 360.,First spin a little bit into the opposite direction to then explode out the way you really want to spin.; Try to avoid doing a Rocket Mount 180 and then restep with your feet but go for the 360 right away.,10097
 10193,Double Shoulder Roll to Feet,,Enzo Fuchs,2020,https://www.instagram.com/p/CFKdxdlq9yd/,,,SHOULDER,EXPOSURE,7,Double Shoulder Roll landing in Exposure.,,
 10250,Front Sofa Roll Rewind to Mini-Cube,Boomerang 180,Ian Eisenberg,2022,https://www.instagram.com/p/CgUkGA0uVlA/,,,SOFA,SOFA,7,"This trick starts with an early Front Sofa Roll for which you grab both hands on your side (the Sick Nasty way). During the Front Sofa Roll, pass your legs over the line. Then use the resistance of the line to rewind your rolling direction and finish with the second half of a Mini-Cube.",,
+10118,540 Spin,,Joshua Leupolz,2021,https://youtu.be/qUxUNfgvoPs?t=46,46,49,STAND,STAND,7,Spin 540 on the line in a standing position. 3 steps,,10228
 10928,360 Spin Single Step,Pirouette,,,,,,STAND,STAND,7,"Do a 360 spin, steping only onece (not landing in switch!).",,
 10162,360 Almighty Flip,,Ian Eisenberg,2021,https://youtu.be/HecUpHXRpDw?t=367,367,380,STAND,STAND,8,360 Almighty Flip.,,10153
 10158,FS 360 Barrel Roll,Overflow,Tim Odermatt,2021,https://www.instagram.com/p/CSHcZfUFG9H/,,,STAND,STAND,8,From your regular stance do a frontside 270 and roll around the line like you would for a Flowflip. Try to land back in your normal stance and not in Exposure.,,10171
 10958,BS 360 Back Yoda Roll,Yodelroll,Tim Odermatt,,,,,STAND,STAND,8,,,
 10165,Barrel Almighty Flip to Barrel Roll,Holy Grail,Davis Hermes,2021,https://youtu.be/UdG4DNI0SNk?t=92,92,97,STAND,STAND,8,Start by doing a Barrel Almighty Flip and go for a second roll by grabbing the line and doing a Barrel Roll.,,10154
 10155,Frontroll from Feet to Feet,Frontflip (Chrysalis),Nick Day,2021,https://www.youtube.com/watch?v=8fqUe9ZQvAc,,,STAND,STAND,8,Front Roll from Feet to Feet.,Longer lines allow for more time to execute the trick.,10080;10231
-10148,Back Roll from Feet to Feet,Backflip,Ian Eisenberg,2021,https://youtu.be/Ej2ocABoNC4?t=18588,18588,18593,STAND,STAND,8,It is a Back Roll from Feet to Feet.,,10079;10086
 10982,Side Roll Feet to Feet,Headless horseman,Tlaloc Moctezuma-Burns,,,,,STAND,STAND,8,,,
 10146,Hammock Roll from Feet to Feet,Lasagna Roll,Augustin Moinat,2021,https://youtu.be/aAq4Tf8naOM?t=139,139,144,STAND,STAND,8,Hammock Roll starting from Feet and going directly back to Feet.,,10023;10092
 10147,Panic Roll 180 from Feet to Feet,Total Nirvana,Sakalomo,2021,https://youtu.be/HecUpHXRpDw?t=55,55,68,EXPOSURE,EXPOSURE,8,Basically a Sofa Roll 360 from Feet to Feet.,,10140
 10166,Darth Vader from Feet,Eisenvader,Ian Eisenberg,2021,https://youtu.be/HecUpHXRpDw?t=436,436,452,EXPOSURE,EXPOSURE,8,Start in Expo and roll down until you are in Rocket. Then do a Darth Vader.,,10132;10095
+10257,Antihero to Sofa Roll to Feet,Double Darth Vader,Ian Eisenberg,2022,https://www.instagram.com/p/ChsjejWLu8d/,,,ROCKET,EXPOSURE,8,Do an Antihero followed by a Sofa Roll to Feet in the same bounce.,,
 10212,Back Roll from Chest to Feet,Frog Flip,Ian Eisenberg,2022,https://www.instagram.com/p/CYPPtWFvkIg/,,,CHEST,STAND,8,From Chest you push off the line with both hands to get into a Back Roll to Feet.,,
 10163,Reverse Super Sonic Mount,,Samuel Volery,2021,https://www.youtube.com/watch?v=EntnbHe_biY,,,ROCKET,EXPOSURE,8,From Rocket get a lot of momentum with your feet and do one roll backwards around the line and land in Exposure.,,10101;10121
 10963,180 Reverse Super Sonic Mount,,,,,,,ROCKET,EXPOSURE,8,,,
@@ -163,21 +173,23 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10239,Shrimpflip 360 to Feet,Shrimp Cocktail,Ian Eisenberg,2022,https://www.instagram.com/p/CbV9q1_p8DI/,,,ROCKET,EXPOSURE,8,"Start with a Shrimpflip, let go with one hand to initiate the 360 spin and land in Exposure.",,
 10208,Kung Pao to Feet,Shrimpzilla,Ian Eisenberg,2021,https://www.instagram.com/p/CXXU9U7KvZ7/,,,ROCKET,EXPOSURE,8,Shrimpflip to Reverse Rocket Mount.,,10174
 10258,Darkside Almighty,All-Nasty,Ian Eisenberg,2022,https://www.instagram.com/p/Chxgwo6s6g_/,,,SOFA,EXPOSURE,8,"Start as you would for the Darkside Roll, but instead of putting the first foot on the line, hook it like for a Back Almighty, put the second foot on the line, let go of your hands and finish as you would for a Back Almighty.",,
-10264,Holy No Soup,,Justin Wagers,2022,https://www.instagram.com/p/CgMeLKqogmm/,,,SOUP,EXPOSURE,8,NH Back Can of Soup to Yoda Roll in one bounce.,,
-10159,Makako to Feet,,Sakalomo,2021,https://youtu.be/rWqH_51ztQA?t=5633,5633,5640,NEVERMIND,EXPOSURE,8,Makako landing in Exposure.,,10052
-10276,Makako 180 to Feet,Darthkako,Sakalomo,,https://youtu.be/Ej2ocABoNC4?t=21781,21781,21788,NEVERMIND,EXPOSURE,8,"From Nevermind start with the normal Makako motion but as soon as you regrab the line with your hands, do an additional 180 before coming back to Exposure. The last part of the trick is like a Darth Vader, hence the name.",,
+10264,No Soup into Barrel,Holy No Soup,Justin Wagers,2022,https://www.instagram.com/p/CgMeLKqogmm/,,,SOUP,EXPOSURE,8,NH Back Can of Soup to Yoda Roll in one bounce.,,
 10248,Boomerang to Feet,Bangarang,Ian Eisenberg,2022,https://www.instagram.com/p/CeVEh4DDYle/,,,SOFA,EXPOSURE,8,Boomerang to Feet.,,
 10948,Boomerang 180 to Feet,Cuberang,,,,,,SOFA,EXPOSURE,8,Boomerang 180 to Feet.,,
+10940,Nirvana Double Roll to Feet,,,,,,,SOFA,EXPOSURE,8,Do a double Sofa Roll 360 and land in Exposure.,,
 10207,Tre Nasty to Feet,,Ian Eisenberg,2021,,,,SOFA,STAND,8,Tre Nasty landing to Feet.,,10109
+10725,Ninja Pop,,,,,,,STAND,STAND,8,,,
+10725,FS Flow 720 to Feet,Flowerpower,,,,,,KOREAN,STAND,8,,,
+10921,Triple Shoulder Roll,Vortex,,,,,,SHOULDER,SHOULDER,8,,,
 10160,Despedido to Feet,,Sakalomo,2021,https://youtu.be/HecUpHXRpDw?t=162,162,178,KOREAN,EXPOSURE,8,Despedido landing in Exposure,,10170
 10164,Triple Yoda Roll,,Davis Hermes,2021,https://www.instagram.com/p/CUNMWEgAGP4/,,,EXPOSURE,EXPOSURE,9,Three Yoda Rolls in one bounce.,,10150
 10168,Double Almighty Flip,,Sebastian Egger,2021,https://youtu.be/HecUpHXRpDw?t=780,780,793,EXPOSURE,EXPOSURE,9,Double Almighty Flip.,Stay open for the first one and tuck for the second one to get good momentum.,10156;10124
 10235,Double Back Yoda Roll 180,Yodermatt,Tim Odermatt,2022,https://www.instagram.com/p/Caf2ldqgtLc/,,,EXPOSURE,EXPOSURE,9,Back Yoda Roll to Back Yoda Roll 180 in one bounce.,,10150
 10233,180 Backflip,,Oscar Defoor,2022,https://www.instagram.com/p/CadBn6CjXqM/,,,STAND,EXPOSURE,9,"Start in regular position, rotate 180° backside and do a backflip starting from switch position. Roll over the same shoulder as the normal backflip.",Get the 180° backflop as solid as possible first!,10148;10126
 10933,180 Frontflip,,,,,,,STAND,EXPOSURE,9,,,
-10257,Antihero to Sofa Roll to Feet,Double Darth Vader,Ian Eisenberg,2022,https://www.instagram.com/p/ChsjejWLu8d/,,,ROCKET,EXPOSURE,9,Do an Antihero followed by a Sofa Roll to Feet in the same bounce.,,
 10949,Supersonic 360,,,,,,,ROCKET,EXPOSURE,9,,,
 10232,Half-Nasty 360 Roll to Feet,Megaminx,Ian Eisenberg,2022,https://www.instagram.com/p/CZQI4Nur_XQ/,,,SOFA,EXPOSURE,9,"Start like you would for the Half-Nasty 180, but then keep spinning to do a 360 by regrabing your hands and finish Reverse Obi-Wan.",,10220
+10851,Sick Nasty Roll to Yoda,Double Darkside Roll,,,,,,SOFA,EXPOSURE,9,,,
 10234,Double Back Roll from Feet,Double Dibahia,Ian Eisenberg,2022,https://www.instagram.com/p/CZh3qZata-5/,,,STAND,KOREAN,9,Double Backroll from feet.,Protecting your arm from leashburns could be beneficial.,10086
 10959,Makako to  Back Yoda Roll,King Kong,Sakalomo,,,,,Nevermind,EXPOSURE,9,"Makako to Feet, finishing with a Yoda Roll.",,
 10859,Makako Feet to Feet,Gorilla,Sakalomo,,,,,EXPOSURE,EXPOSURE,9,Makako from Feet landing in Exposure.,,
