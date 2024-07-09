@@ -1,5 +1,5 @@
 // increase this manualy if you update the predefinedTricks
-export const predefinedTricksVersion = 10;
+export const predefinedTricksVersion = 11;
 // predefinedTricks have to have an id above 10000
 export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstablished,linkToVideo,videoStartTime,videoEndTime,startPos,endPos,difficultyLevel,description,tips,recommendedPrerequisites
 10006,Belly Roll,,,,https://www.youtube.com/watch?v=1qJJ26dPKyc,,,BELLY,BELLY,1,With both hands on the line supporting your weight you lie on your belly and roll forward (or backward) around the line.,You can try this trick clipped into the hangover first to save energy while familiarizing yourself with the movement.,
@@ -172,7 +172,6 @@ export const predefinedTricks = `id,technicalName,alias,establishedBy,yearEstabl
 10172,Shapeshifter to Feet,Ninja Shifta,Enzo Fuchs,2021,https://www.instagram.com/p/CXOfVZGgZ7b/,,,EXPOSURE,EXPOSURE,8,Shapeshifter landing to feet.,,10112
 10239,Shrimpflip 360 to Feet,Shrimp Cocktail,Ian Eisenberg,2022,https://www.instagram.com/p/CbV9q1_p8DI/,,,ROCKET,EXPOSURE,8,"Start with a Shrimpflip, let go with one hand to initiate the 360 spin and land in Exposure.",,
 10208,Kung Pao to Feet,Shrimpzilla,Ian Eisenberg,2021,https://www.instagram.com/p/CXXU9U7KvZ7/,,,ROCKET,EXPOSURE,8,Shrimpflip to Reverse Rocket Mount.,,10174
-10258,Darkside Almighty,All-Nasty,Ian Eisenberg,2022,https://www.instagram.com/p/Chxgwo6s6g_/,,,SOFA,EXPOSURE,8,"Start as you would for the Darkside Roll, but instead of putting the first foot on the line, hook it like for a Back Almighty, put the second foot on the line, let go of your hands and finish as you would for a Back Almighty.",,
 10264,No Soup into Barrel,Holy No Soup,Justin Wagers,2022,https://www.instagram.com/p/CgMeLKqogmm/,,,SOUP,EXPOSURE,8,NH Back Can of Soup to Yoda Roll in one bounce.,,
 10248,Boomerang to Feet,Bangarang,Ian Eisenberg,2022,https://www.instagram.com/p/CeVEh4DDYle/,,,SOFA,EXPOSURE,8,Boomerang to Feet.,,
 10948,Boomerang 180 to Feet,Cuberang,,,,,,SOFA,EXPOSURE,8,Boomerang 180 to Feet.,,
